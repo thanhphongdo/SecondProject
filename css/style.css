@@ -1,0 +1,193 @@
+#page-header {
+    //border: red 1px solid;
+    position: relative;   
+    height: 150px;
+    background-image: url("../images/header2.jpg");
+    background-color: black;
+}
+
+#page-search {
+    height: 36px;
+}
+
+#login {
+    margin-right: 10px;
+}
+
+#page-footer {
+    text-align: center;
+}
+
+.page-width-limited {
+    width: 1200px;
+}
+
+.rightside-form-margin {
+    margin-left: 0px;
+    margin-right: -45px; 
+}
+
+.rightside-panel-margin {
+    margin-left: -15px;
+    margin-right: -30px; 
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.showTooltip {
+    display:none;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    border:1px solid #333;
+    background-color:#161616;
+    border-radius:5px;
+    padding:10px;
+    color:#fff;
+    font-size:12px;
+    z-index: 99999999;
+}
+
+//Gio hang
+.giohang-thead{
+    
+}
+
+.giohang-thead>th{
+    text-align: center;
+}
+
+.giohang-tbody>td{
+    text-align: center;
+}
+
+.giohang-stt{
+    width:50px;
+}
+
+.giohang-image{
+    width:50px;
+    padding:0px;
+    margin:0px;
+}
+
+#giohang-sp{
+    padding-left:10px;
+    text-align: left;
+}
+
+#giohang-sanpham{
+    line-height: 1;
+    margin-top:5px;
+}
+
+#giohang-soluong{
+    width:85px;
+    text-align: center;
+}
+
+#giohang-soluong>input{
+    height: 30px; 
+    padding:0px; 
+    text-align: center;
+}
+
+#giohang-dongia{
+    width:100px;
+}
+
+#giohang-thanhtien{
+    width:100px;
+}
+
+#giohang-xoa{
+    width:50px;
+}
+
+#giohang-footer{
+    text-align: center;
+}
+
+#giohang-form{
+    
+}
+
+#giohang-form button{
+    margin-right:10px;
+}
+
+//Lien he
+
+#lienhe-form{
+    
+}
+/**Phong**/
+.user{
+    margin-right: 0px;
+}
+.alert2{
+    text-align:right;
+    padding: 5px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+#frmDangKy{
+    width: 700px;
+    margin: auto;
+}
+#error .modal-dialog{
+    width: 300px;
+}
+#success .modal-dialog{
+    width: 300px;
+}
+#ifQD{
+    border-radius: 5px;
+}
+/**end Phong**/

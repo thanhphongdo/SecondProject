@@ -1,0 +1,93 @@
+#sliderFrame {position:relative; left:0px;width:700px;margin: 0px -10px auto; margin-left: 10px;}
+        
+#slider {
+    width:875px;height:306px;/* Make it the same size as your images */
+    background:#fff url(http://4.bp.blogspot.com/-aVGCcclfKQo/UR-T3vxFAMI/AAAAAAAABm8/ncwIfUdoLIw/s1600/loading.gif) no-repeat 50% 50%;
+    position:relative;
+    left:0px;
+    margin: 0px -10px auto;/*make the image slider center-aligned */
+    box-shadow: 0px 1px 5px #999999;
+    margin-bottom: 20px;
+}
+#slider img {
+ position:absolute;
+ border:none;
+ display:none;
+}
+
+/* the link style (if an image is wrapped in a link) */
+#slider a.imgLink {
+ z-index:2;
+ display:none;position:absolute;
+ top:0px;left:0px;border:0;padding:0;margin:0;
+ width:100%;height:100%;
+}
+
+/* Caption styles */
+div.mc-caption-bg, div.mc-caption-bg2 {
+ position:absolute;
+ width:100%;
+ height:auto;
+ padding:0;
+ left:0px; 
+ bottom:15px;
+ z-index:3;
+ overflow:hidden;
+ font-size: 0;
+}
+div.mc-caption-bg {
+ background-color:black;
+}
+div.mc-caption {
+ font: bold 14px/20px Arial;
+ color:#EEE;
+ z-index:4;
+ padding:10px 0;
+ text-align:center;
+}
+div.mc-caption a {
+ color:#FB0;
+}
+div.mc-caption a:hover {
+ color:#DA0;
+}
+
+
+/* ------ built-in navigation bullets wrapper ------*/
+div.navBulletsWrapper  {
+ top:320px; right:20px; /* Its position is relative to the #slider */
+ width:200px;
+ background:none;
+ padding-left:20px;
+ position:relative;
+ z-index:5;
+ cursor:pointer;
+}
+
+/* each bullet */
+div.navBulletsWrapper div 
+{
+    width:11px; height:11px;
+    background:transparent url(http://3.bp.blogspot.com/-ZUaX5-lcCi4/UR-TzMXcpuI/AAAAAAAABm0/kokxtfFdNcU/s1600/bullet.png) no-repeat 0 0;
+    float:left;overflow:hidden;vertical-align:middle;cursor:pointer;
+    margin-right:11px;/* distance between each bullet*/
+    _position:relative;/*IE6 hack*/
+}
+div.navBulletsWrapper div.active {background-position:0 -11px;}
+.intro {
+    bottom: 0;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    z-index: 99999;
+}
+/* --------- Others ------- */
+#slider 
+{
+ transform: translate3d(0,0,0);
+    -ms-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0);
+}
